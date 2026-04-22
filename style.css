@@ -1,8 +1,59 @@
+/* ===== FONTES ===== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
+/* ===== GERAL ===== */
+body {
+    background-color: #f4f6f8;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+/* ===== HEADER ===== */
+header {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#nome {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+figcaption {
+    font-size: 13px;
+    color: gray;
+}
+
+/* ===== CONTEÚDO ===== */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* ===== SECTIONS ===== */
+section {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* ===== TÍTULOS ===== */
+h2 {
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+/* ===== LINKS ===== */
 a[href] {
-    color: #0800ff;
-        text-decoration: none;
+    color: #2980b9;
+    text-decoration: none;
     transition: 0.3s;
 }
 
@@ -11,29 +62,25 @@ a:hover {
     text-decoration: underline;
 }
 
+/* ===== TEXTO ===== */
 .resumo {
-    font-style: italic; /* itálico */
-}
-
-body {
-    background-color: #ffffff;
-    font-family: Arial, sans-serif;
-    color: #000000;
-}
-
-.titulo {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-}
-
-h2 {
-    text-decoration: underline;
-}
-#nome {
-    text-decoration: underline;
-}
-.legenda {
-    font-size: 11px;
-    color: rgb(138, 139, 140);
     font-style: italic;
+    line-height: 1.6;
+}
+
+/* ===== LISTAS ===== */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: gray;
 }
