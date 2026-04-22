@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+a[href] {
+    color: #0800ff;
+        text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+.resumo {
+    font-style: italic; /* itálico */
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+
+.titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+h2 {
+    text-decoration: underline;
+}
+#nome {
+    text-decoration: underline;
+}
+.legenda {
+    font-size: 11px;
+    color: rgb(138, 139, 140);
+    font-style: italic;
+}
