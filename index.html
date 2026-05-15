@@ -4,112 +4,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo de Daniel Kawata Hara</title>
-     <link rel="stylesheet" href="style.css">
+    <title>Currículo — Daniel Kawata Hara</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <hr>
-    <h1 id="nome">Daniel Kawata Hara</h1>
-    <figure>
-        <img src="imagens/3dd28e9d-447c-408d-9a21-ff31a7d2baa1.jpg" alt="Foto de Daniel Kawata Hara" width="100">
-         <figcaption class="legenda">Desenvolvedor Web Front-End</figcaption>
-    </figure>
-    
-</header>
+<div class="page">
 
-<main>
+    <!-- ========== HEADER ========== -->
+    <header class="hero">
+        <div class="hero-left">
+            <div class="photo-ring">
+                <img src="imagens/3dd28e9d-447c-408d-9a21-ff31a7d2baa1.jpg" alt="Foto de Daniel Kawata Hara" class="hero-photo">
+            </div>
+            <div class="hero-info">
+                <h1 class="hero-name">Daniel <span>Kawata Hara</span></h1>
+                <p class="hero-role">Desenvolvedor Web Front-End</p>
+                <p class="hero-sub">Estudante de Engenharia de Software · UTFPR · 4º Período · Inglês Avançado</p>
+            </div>
+        </div>
+        <ul class="hero-contacts">
+            <li>
+                <img src="icones/email-1572-svgrepo-com.svg" width="13" alt="">
+                <a href="mailto:kawataharadaniel@gmail.com">kawataharadaniel@gmail.com</a>
+            </li>
+            <li>
+                <img src="icones/telephone-svgrepo-com.svg" width="13" alt="">
+                <a href="tel:+5514998014949">(14) 99801-4949</a>
+            </li>
+            <li>
+                <img src="icones/linkedin-svgrepo-com.svg" width="13" alt="">
+                <a href="https://www.linkedin.com/in/daniel-kawata-hara-630367332/" target="_blank">linkedin/daniel-kawata-hara</a>
+            </li>
+            <li>
+                <img src="icones/github-142-svgrepo-com.svg" width="13" alt="">
+                <a href="https://github.com/Danielkh497" target="_blank">github.com/Danielkh497</a>
+            </li>
+        </ul>
+    </header>
 
-<section>
-    <h2 class="titulo">
-        <img src="icones/contact-us-svgrepo-com.svg" width="15">
-        Contato
-    </h2>
-    <ul>
-        <li>
-            <img src="icones/email-1572-svgrepo-com.svg" width="12">
-            Email: <a href="mailto:kawataharadaniel@gmail.com">kawataharadaniel@gmail.com</a>
-        </li>
-        <li>
-            <img src="icones/telephone-svgrepo-com.svg" width="12">
-            Telefone: <a href="tel:+5514998014949">(14) 99801-4949</a>
-        </li>
-        <li>
-            <img src="icones/linkedin-svgrepo-com.svg" width="12">
-            LinkedIn: <a href="https://www.linkedin.com/in/daniel-kawata-hara-630367332/">Perfil</a>
-        </li>
-        <li>
-            <img src="icones/github-142-svgrepo-com.svg" width="12">
-            GitHub: <a href="https://github.com/Danielkh497">github.com/Danielkh497</a>
-        </li>
-    </ul>
-</section>
+    <!-- ========== BODY GRID ========== -->
+    <div class="body-grid">
 
-<section>
-    <h2 class="titulo">
-        <img src="icones/skills-svgrepo-com.svg" width="15">
-        Habilidades
-    </h2>
-    <ul>
-        <li>HTML5</li>
-        <li>Java</li>
-        <li>C</li>
-        <li>Python</li>
-        <li>Git</li>
-    </ul>
-</section>
+        <!-- ===== COLUNA ESQUERDA ===== -->
+        <div class="col-left">
 
-<section>
-    <h2 class="titulo">
-        <img src="icones/resume-business-cv-work-job-curriculum-2-svgrepo-com.svg" width="15">
-        Resumo
-    </h2>
-    <p class="resumo">
-        Estudante de Engenharia de Software com conhecimentos em lógica de programação 
-        e desenvolvimento nas linguagens C, Java e Python. 
-        Possuo interesse em desenvolvimento de software e gestão de projetos, 
-        buscando evolução constante.
-    </p>
-</section>
+            <!-- OBJETIVO -->
+            <section class="block">
+                <h2 class="block-title">
+                    <img src="icones/resume-business-cv-work-job-curriculum-2-svgrepo-com.svg" width="15" alt="">
+                    Objetivo
+                </h2>
+                <p class="resumo">
+                    Estudante de Engenharia de Software com vivência em gestão de pessoas e operações em empresa júnior.
+                    Busco oportunidade de estágio onde possa contribuir com raciocínio analítico, comunicação eficaz
+                    e domínio de ferramentas de gestão e tecnologia para agregar valor a times e processos.
+                </p>
+            </section>
 
-<section>
-    <h2 class="titulo">ODS que pretendo contribuir</h2>
-    <figure>
-        <img src="imagens/SDG-8.svg" alt="ODS 8" width="200">
-        <figcaption>ODS 8 - Trabalho Decente e Crescimento Econômico</figcaption>
-    </figure>
-</section>
+            <!-- EXPERIÊNCIA -->
+            <section class="block">
+                <h2 class="block-title">
+                    <img src="icones/basic-briefcase-outline-svgrepo-com.svg" width="15" alt="">
+                    Experiência Profissional
+                </h2>
 
-<section>
-    <h2 class="titulo">
-        <img src="icones/basic-briefcase-outline-svgrepo-com.svg" width="15">
-        Experiência Profissional
-    </h2>
-    <p>
-        Ainda não possuo experiência profissional formal, 
-        mas estou aberto a oportunidades de estágio e aprendizado prático.
-    </p>
-</section>
+                <div class="exp-item">
+                    <div class="exp-top">
+                        <div>
+                            <h3 class="exp-role">Setor de Operações em Gente</h3>
+                            <p class="exp-org">UNECT Empresa Júnior · UTFPR — Cornélio Procópio, PR</p>
+                        </div>
+                        <span class="exp-badge">2026 – Atual</span>
+                    </div>
+                    <ul class="exp-bullets">
+                        <li>Apoio a processos de gestão de pessoas e clima organizacional, exercitando empatia e escuta ativa</li>
+                        <li>Controle de demandas e produtividade via Google Sheets, Monday e Clockify</li>
+                        <li>Atuação em times multidisciplinares com comunicação assertiva e gestão de conflitos (certif. ENAP)</li>
+                        <li>Melhoria contínua de fluxos internos com pensamento analítico e soluções práticas</li>
+                    </ul>
+                </div>
 
-<section>
-    <h2 class="titulo">
-        <img src="icones/mortarboard-svgrepo-com.svg" width="15">
-        Educação
-    </h2>
-    <p><strong>Engenharia de Software</strong></p>
-    <p>Universidade Tecnológica Federal do Paraná (UTFPR)</p>
-    <p>2024 – 2028 (Previsão)</p>
-</section>
+                <div class="exp-divider"></div>
 
-</main>
+                <div class="exp-item">
+                    <div class="exp-top">
+                        <div>
+                            <h3 class="exp-role">Setor de Comunicação</h3>
+                            <p class="exp-org">DACOMP · Diretório Acadêmico de Computação · UTFPR — Cornélio Procópio, PR</p>
+                        </div>
+                        <span class="exp-badge">2025</span>
+                    </div>
+                    <ul class="exp-bullets">
+                        <li>Criação e divulgação de conteúdo institucional com foco em comunicação visual e clareza</li>
+                        <li>Gestão de canais institucionais com foco em engajamento acadêmico</li>
+                    </ul>
+                </div>
 
-<footer>
-    <hr>
-    <p>&copy; 2026 Daniel Kawata Hara</p>
-  
-</footer>
+            </section>
+
+            <!-- EDUCAÇÃO -->
+            <section class="block">
+                <h2 class="block-title">
+                    <img src="icones/mortarboard-svgrepo-com.svg" width="15" alt="">
+                    Educação
+                </h2>
+                <div class="exp-top">
+                    <div>
+                        <h3 class="exp-role">Bacharelado em Engenharia de Software</h3>
+                        <p class="exp-org">Universidade Tecnológica Federal do Paraná (UTFPR) — Cornélio Procópio, PR</p>
+                        <p class="exp-org" style="margin-top:4px">4º Período (cursando)</p>
+                    </div>
+                    <span class="exp-badge">2024 – 2028</span>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- ===== COLUNA DIREITA ===== -->
+        <div class="col-right">
+
+            <!-- HABILIDADES -->
+            <section class="block">
+                <h2 class="block-title">
+                    <img src="icones/skills-svgrepo-com.svg" width="15" alt="">
+                    Habilidades
+                </h2>
+
+                <p class="group-label">Linguagens</p>
+                <ul class="pills">
+                    <li>HTML5</li><li>CSS</li><li>Java</li><li>C</li><li>Python</li><li>MySQL</li>
+                </ul>
+
+                <p class="group-label">Gestão &amp; Produtividade</p>
+                <ul class="pills">
+                    <li>Excel</li><li>Google Sheets</li><li>Monday</li><li>Power BI</li><li>Figma</li><li>Canva</li><li>Clockify</li>
+                </ul>
+
+                <p class="group-label">Metodologias &amp; Versionamento</p>
+                <ul class="pills">
+                    <li>Scrum</li><li>Kanban</li><li>Git</li>
+                </ul>
+
+                <p class="group-label">Idiomas</p>
+                <ul class="pills">
+                    <li>Português (nativo)</li><li>Inglês (avançado)</li>
+                </ul>
+            </section>
+
+            <!-- CERTIFICAÇÕES -->
+            <section class="block">
+                <h2 class="block-title">
+                    <img src="icones/contact-us-svgrepo-com.svg" width="15" alt="">
+                    Certificações
+                </h2>
+
+                <p class="group-label">SECOMP UTFPR (2024 e 2025)</p>
+                <ul class="pills pills--cert">
+                    <li>UI/UX Design</li><li>Análise de Dados</li><li>Scrum na Prática</li>
+                    <li>Gestão de Desempenho</li><li>Python</li><li>IA e Criatividade</li>
+                    <li>Generative AI</li><li>Consulting Skills</li><li>Acessibilidade Digital</li>
+                </ul>
+
+                <p class="group-label">ENAP</p>
+                <ul class="pills pills--cert">
+                    <li>Gestão de Conflitos</li><li>Trabalho Remoto</li><li>Introdução ao Excel</li>
+                </ul>
+
+                <p class="group-label">Outras Atividades</p>
+                <ul class="pills pills--cert">
+                    <li>HackaBee — Hackathon (UTFPR)</li><li>Kumon Brasil</li>
+                </ul>
+            </section>
+
+            <!-- ODS -->
+            <section class="block ods-block">
+                <h2 class="block-title">ODS que pretendo contribuir</h2>
+                <div class="ods-wrap">
+                    <img src="imagens/SDG-8.svg" alt="ODS 8" class="ods-img">
+                    <p class="ods-caption">ODS 8 — Trabalho Decente<br>e Crescimento Econômico</p>
+                </div>
+            </section>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 Daniel Kawata Hara</p>
+    </footer>
+
+</div>
 
 </body>
 </html>
